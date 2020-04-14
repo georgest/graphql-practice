@@ -3,7 +3,7 @@
 Follow the instructions to run the project:
 
 - clone repository
-- install dependencies:  
+- install dependencies through the console:  
   `yarn install`
 - start json server:  
    `yarn run json:server`
