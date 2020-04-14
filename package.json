@@ -1,0 +1,54 @@
+{
+  "name": "graphql-practice",
+  "version": "1.0.0",
+  "description": "GraphQL Practice Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --ignore client",
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgest/graphql-practice.git"
+  },
+  "keywords": [
+    "graphql",
+    "react"
+  ],
+  "author": "Georgi Stoilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgest/graphql-practice/issues"
+  },
+  "homepage": "https://github.com/georgest/graphql-practice#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "apollo-boost": "^0.4.7",
+    "apollo-client": "^2.6.8",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.13.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.13.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "browser-sync": "^2.26.7",
+    "json-server": "^0.16.1",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.42.0",
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}
